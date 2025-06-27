@@ -44,13 +44,14 @@ img{
     grid-template-rows: repeat(10, 1fr);
     grid-auto-flow: column;
     gap: 2px;
+    color: white;
 }
 .main-content{
     grid-row: 2 / 3;
     grid-column: 2 / 3;
 }
 .search-bar{
-    background-color: grey;
+    background-color: rgb(203, 203, 203);
     width: 400px;
     height: 15px;
     border-radius: 10px;
@@ -76,9 +77,12 @@ img{
     justify-content: space-between;
 }
 button{
-    height: 20px;
-    width: 60px;
+    height: 30px;
+    width: 70px;
     border-radius: 5px;
+    background-color: #4B9CD3;
+    border: 1px solid #4B9CD3;
+    color: white;
 }
 .left{
     display: flex;
@@ -111,8 +115,14 @@ button{
 }
 .content-card{
     background-color: white;
-    padding: 20px;
     box-sizing: border-box;
     box-shadow: 10px 10px 5px #F2F2F2;
-    border-radius: 10px;;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+}
+.color{
+    height: 100%;
+    width: 60px;
+    background-color: #FDF7EE;
 }
